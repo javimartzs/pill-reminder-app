@@ -30,11 +30,6 @@ run:
 	@echo "Ejecutando la aplicacion"
 	@$(BIN_DIR)/$(APP_NAME)
 
-# Comando para correr las pruebas 
-test:
-	@echo "Ejecutando las pruebas..."
-	@go test ./... -v
-
 # Comando para levantar postgres y ejecutar la App
 run-w-db: start-db build
 	@echo "Esperando que PostgreSQL esté listo..."
