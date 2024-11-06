@@ -1,4 +1,4 @@
-package database
+package db
 
 import (
 	"github.com/javimartzs/pill-reminder-app-v0/models"
